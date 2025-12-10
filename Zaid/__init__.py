@@ -1,8 +1,12 @@
-from pyrogram import Client
-from config import API_ID, API_HASH, SUDO_USERS, OWNER_ID, BOT_TOKEN, STRING_SESSION1, STRING_SESSION2, STRING_SESSION3, STRING_SESSION4, STRING_SESSION5, STRING_SESSION6, STRING_SESSION7, STRING_SESSION8, STRING_SESSION9, STRING_SESSION10
-from datetime import datetime
-import time
+import asyncio
 from aiohttp import ClientSession
+
+async def create_session():
+    return ClientSession()
+
+aiosession = None
+asyncio.get_event_loop().create_task(create_session())
+
 
 StartTime = time.time()
 START_TIME = datetime.now()
