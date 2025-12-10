@@ -8,6 +8,9 @@ BOT_TOKEN = "8380213264:AAETF8fr8vz-6aIwf6kwaRrFJtk7XzUj7jw"
 
 OWNER_ID = 7211157842
 
+# ---- ALIVE PIC ----
+ALIVE_PIC = "https://telegra.ph/file/e973fdcba1e5d102e64b9.jpg"   # koi bhi image link daal sakta hai
+
 # ---- OPTIONAL ----
 STRING_SESSION1 = ""
 STRING_SESSION2 = ""
